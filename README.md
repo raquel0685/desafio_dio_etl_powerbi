@@ -26,10 +26,5 @@ Ao final, um relatório simples foi gerado para um *overview* dos dados.
 #### Qual a diferença entre mesclar e acrescentar consultas?  
   
 Ao acrescentar, pegamos o resultados das consultas e criamos uma tabela com todos os resultados de cada tabela utilizada no processo. O ideal é que as tabelas contenham as mesmas colunas, mas funciona mesmo se não tiverem incluindo valores nulos nas células sem correspondência. Caso existam linhas com registros iguais, as informações ficaram duplicadas na tabela final.  
-A mescla une as tabelas pelas linhas,  devendo haver uma coluna em comum entre as tabelas para ser realizada. Pode-se escolher o tipo de junção e como resultado têm-se uma nova tabela com as colunas desejadas da primeira e da segunda.  
+A mescla une as tabelas pelas linhas,  devendo haver uma coluna em comum entre as tabelas para ser realizada. Pode-se escolher o tipo de junção, e como resultado têm-se uma nova tabela com as colunas desejadas da primeira e da segunda.  
   
-#### Por que foi pedido para mesclar os nomes de departamentos e localização, ao invés de utilizar o atribuir?  
-
-Na tabela *dept_location*, o departamento *research* possui três localidades distintas, portanto utiliza-se a mescla para garantir que elas estejam representadas corretamente na nova tabela.
-
-
